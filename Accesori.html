@@ -6,6 +6,20 @@
   <title>Joseph Furniture</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#46212165;
+    }
+
     .logo {
       font-weight: bold;
       font-size: 24px;
@@ -21,13 +35,13 @@
       display: flex;
       align-items: center;
       padding: 40px;
-      background-color: rgba(200, 255, 0, 0.37);
+      background: linear-gradient(rgb(232, 253, 42), rgba(0, 255, 13, 0.363))
     }
 
     .banner img {
       width: 60%;
-      max-height: 700px;
-      object-fit: 100vh;
+      max-height: 400px;
+      object-fit:cover;
       border-radius: 10px;
     }
 
@@ -56,15 +70,15 @@
     }
 
     .image-container {
-      display: grid;
+      display: flex;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      gap: 10px;
     }
 
     .item {
       text-align: center;
       background-color: #fff;
-      padding: 15px;
+      padding: 10px;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       text-decoration: none;
@@ -88,6 +102,23 @@
       font-size: 14px;
       color: #555;
     }
+
+    .back {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
   </style>
 </head>
 
@@ -104,42 +135,55 @@
 
 
   <div class="banner">
-    <img src="pic/modern-designs-for-minimalist-living.jpg" alt="Banner Image">
+    <img src="pic/Furniture-store-inside2-1024x577.webp" alt="Banner Image">
     <div class="banner-description">
-      <h1>Discover Premium Chairs</h1>
-      <p>Explore our exclusive collection of modern, stylish, and comfortable chairs crafted to suit your space.</p>
+      <h1>Discover Premium Accessories</h1>
+      <p>Add the perfect finishing touch to your space with our stylish and functional accessories. From lighting to cushions, every detail is crafted to elevate comfort, ambiance, and style.</p>
     </div>
   </div>
 
 
   <section class="sofas">
-    <h2>Sofas Sample List</h2>
+    <h2>Accessories Sample List</h2>
     <div class="image-container">
+
       <a class="item" href="#">
-        <img src="pic/81JUUQLk2VL.jpg" alt="Single Use Sofa" />
-        <p class="description">Armchair</p>
-        <p class="details">Sink into comfort with our cozy armchairs — perfect for reading, relaxing, or simply unwinding in style.</p>
+        <img src="pic/Skinny-laMinx-Pillow-mix-2023-crop.jpg" alt="Single Use Sofa" />
+        <p class="description">Cushions & Pillows</p>
+        <p class="details">Soft, weather-resistant, and colorful—instantly upgrade your seating comfort.</p>
       </a>
-
+  
       <a class="item" href="Pages/MId%20price.html">
-        <img src="pic/CB_SP25_CBS_04_312_DETAIL_001_512x640.webp" alt="Standard Sofa" />
-        <p class="description">Dining Chair</p>
-        <p class="details"> the perfect blend of comfort and elegance for every mealtime.</p>
+        <img src="pic/81cnbOXmqIL._AC_SL1500_.jpg" alt="Standard Sofa" />
+        <p class="description">Patio Umbrellas</p>
+        <p class="details">Shade in style—perfect for sunny days and relaxing in cool comfort.</p>
       </a>
-
+  
       <a class="item" href="Pages/High%20price.html">
-        <img src="pic/LSORENCSHMBCHRBLK_900x.webp" alt="Sofa Bed" />
-        <p class="description">Office Chair</p>
-        <p class="details">designed for long hours without the back pain.</p>
+        <img src="pic/spiral-charcoal-3d-shaggy-rug-4_4edkohf7nw3fm5wj.jpg" alt="Sofa Bed" />
+        <p class="description">Rugs</p>
+        <p class="details">Durable and decorative—define your space with cozy texture.</p>
       </a>
-
+  
       <a class="item" href="Pages/budget.html">
-        <img src="pic/undef_src_sa_picid_752212_type_color_image.jpg" alt="Sectional Sofa" />
-        <p class="description">Gaming Chair</p>
-        <p class="details">our gaming chairs support your posture while keeping you in the zone.</p>
+        <img src="pic/copper-finish-moroccan-style-string-lights-battery-powered-metal-led-home-lighting-lanterns-173cm-long-each-light-h5-x-4cm~5053335809683_02c_MP.webp" alt="Sectional Sofa" />
+        <p class="description">String Lights / Lanterns</p>
+        <p class="details">Set the mood—create a warm, inviting glow for evening gatherings.</p>
+      </a>
+    </div>  
+  
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="index.html" class="back">
+        <h3>Go Back</h3>
       </a>
     </div>
   </section>
+
+  <footer>
+    <div>
+      <p>@:To be Updated Soon</p>
+    </div>
+  </footer>
 
 </body>
 </html>

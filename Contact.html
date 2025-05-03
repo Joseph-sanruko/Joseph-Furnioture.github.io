@@ -6,94 +6,106 @@
   <title>Joseph Furniture</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer" />
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+  <style>
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0e68c;
+  min-height: 100vh;
+}
 
-</head>
 
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-
-  .con {
-    height: 300px;
+header {
+    background-color: #333;
+    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    margin-bottom: 300px;
-  }
-  .cons{
-    border: solid white;
-    border-radius: 10px;
-    padding: 10px;
-    background-color:  rgba(240, 230, 140, 0.425);
-  }
-  h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
+    padding: 15px 30px;
+  } 
 
-  .icon {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px 0;
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
 
-  }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
 
-  .icon-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2em;
-    border: solid white;
-    border-radius: 10px;
-    background-color: rgba(240, 230, 140, 0.425);
-  }
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-  .icon-item i {
-    font-size: 30px;
-    margin-bottom: 8px;
-  }
-</style>
+    .con {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 300px;
+
+    }
+    .cons {
+      border: solid white;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: rgba(240, 230, 140, 0.425);
+      
+    }
+   
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+    }
+
+    .icon-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.2em;
+      border: solid white;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: rgba(240, 230, 140, 0.425);
+    }
+
+    .icon-item i {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+    .back {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #ddd;
+  color: #000;
+}
+  </style>
 </head>
-
 <body>
-
-<div class="con">
-  <div class="cons">
-  <h1>Get in Touch</h1>
-  <p>Choose the options below to contact us</p>
-  </div>
-</div>
-
-<div class="icon">
-
-  <div class="icon-item">
-    <i class="fa-solid fa-location-dot"></i>
-    <span>Our Location</span>
-    <span>"Crossing Laconcepcion"</span>
-  </div>
-
-  <div class="icon-item">
-    <i class="fa-solid fa-phone"></i>
-    <span>Call Us</span>
-    <span>09978064362</span>
-  </div>
-
-  <div class="icon-item">
-    <i class="fa-solid fa-envelope"></i>
-    <span>Email Us</span>
-    <span>menangdeng2006gmail.com</span>
-  </div>
-
-</div>
-</body>
 
   <header>
     <div class="logo">Joseph Furniture</div>
@@ -104,6 +116,33 @@
     </nav>
   </header>
 
+  <div class="con">
+    <div class="cons">
+      <h1>Get in Touch</h1>
+      <p>Choose the options below to contact us</p>
+    </div>
+  </div>
+
+  <div class="icon">
+    <div class="icon-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>Our Location</span>
+      <span>Crossing Laconcepcion</span>
+    </div>
+
+    <div class="icon-item">
+      <i class="fa-solid fa-phone"></i>
+      <span>Call Us</span>
+      <span>09978064362</span>
+    </div>
+
+    <div class="icon-item">
+      <i class="fa-solid fa-envelope"></i>
+      <span>Email Us</span>
+      <span>menangdeng2006@gmail.com</span>
+    </div>
+  </div>
 
 </body>
 </html>
+

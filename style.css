@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #1f1f1f;
+  background: linear-gradient(gray, black);
   color: #fff;
 }
 
@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #550b0b96;
+  background: linear-gradient(black, rgba(255, 0, 0, 0.342));
   color: white;
   position: fixed;
   width: 100vw;
@@ -77,13 +77,13 @@ nav a.active {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
+  box-shadow: 5px 5px 5px;
 }
 
 .category:hover {
-  background-color: #ddd;
+  background-color: #a08a8a;
   transform: scale(1.05);
 }
-
 .gallery {
   padding: 50px 50px;
 }
@@ -112,7 +112,7 @@ nav a.active {
   border-radius: 10px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   border: solid black;
-
+  box-shadow: 5px 5px 5px;
 }
 
 .image-container img:hover {
