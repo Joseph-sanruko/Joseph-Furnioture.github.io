@@ -140,11 +140,11 @@ nav a.active {
 
 .image-container {
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
   gap: 50px;
   background-color: rgba(255, 255, 255, 0.582);
-  padding: 10px;
+  padding: 50px;
   border-radius: 10px;
 }
 
