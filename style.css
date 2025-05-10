@@ -144,7 +144,7 @@ nav a.active {
   justify-content: center;
   gap: 50px;
   background-color: rgba(255, 255, 255, 0.582);
-  padding: 50px;
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -167,7 +167,7 @@ nav a.active {
 }
 .item {
   display: flex;
-  flex-direction: row;
+  flex-direction: columns;
   align-items: center;
   width: 300px;
   text-decoration: none;
