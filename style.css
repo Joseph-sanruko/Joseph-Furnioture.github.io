@@ -167,7 +167,7 @@ nav a.active {
 }
 .item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 300px;
   text-decoration: none;
